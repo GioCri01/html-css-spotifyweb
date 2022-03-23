@@ -1,0 +1,75 @@
+
+
+
+
+@media screen and (max-width:768px) {
+    header{
+        text-align: center;
+    }
+
+    .box-menu{
+        width: 80px;
+        padding: 20px;
+        z-index: 999;
+        background-color: black;
+        text-transform: uppercase;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: stretch;
+        flex-wrap: wrap;
+        margin-bottom: 40px; 
+       
+        
+        
+    } 
+    
+    .box-item{
+        position: relative;
+        text-align: center;
+       
+        margin: 10px;
+        
+        
+        
+        
+        
+       
+        
+        
+    }
+
+    
+    .box-menu .logo-fp{
+        display: none;
+    }
+
+    .box-menu .logo-mobile{
+        display: block;
+    }
+
+    .box-menu li a span{
+        display: none;
+    }
+
+    .box-menu .menu-middle{
+        display: none;
+    }
+
+    .box-menu .menu-bottom span,hr{
+        display: none;
+    }
+
+    .box-menu .menu-bottom i{
+        font-size: 20px;
+    }
+
+    
+        
+        
+        
+        
+    
+    
+}
