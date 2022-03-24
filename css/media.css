@@ -1,8 +1,45 @@
+@media screen and (max-width:1200px) {
+    
+
+    
+    .flex-container{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 40px; 
+       
+        
+        
+    } 
+
+    .box-item{
+        position: relative;
+        text-align: center;
+        width: 200px;
+        margin: 10px;
+        
+        
+        
+        
+        
+       
+        
+        
+    }
+
+     
+        
+        
+        
+       
+        
+        
+    
+}
 
 
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:880px) {
     header{
         text-align: center;
     }
@@ -17,7 +54,7 @@
 
     .flex-container{
         display: flex;
-        justify-content: stretch;
+        justify-content: flex-start;
         flex-wrap: wrap;
         margin-bottom: 40px; 
        
@@ -28,17 +65,27 @@
     .box-item{
         position: relative;
         text-align: center;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 40px;
        
-        margin: 10px;
-        
-        
-        
-        
-        
-       
-        
-        
+    }   
+
+
+    .overlay{
+        width: 200px;
+        height: 200px;
     }
+    
+      
+        
+        
+        
+        
+       
+        
+        
+    
 
     
     .box-menu .logo-fp{
